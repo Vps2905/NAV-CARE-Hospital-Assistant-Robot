@@ -1,0 +1,18 @@
+{
+  "world": "hospital_demo",
+  "units": "meters",
+  "origin": "centre of central corridor",
+  "robot_start": {"x": -6.65, "y": -3.55, "yaw_deg": 90},
+  "destinations": {
+    "reception": {"x": -6.65, "y": -3.55, "yaw_deg": 90, "label": "Reception"},
+    "waiting": {"x": -6.65, "y": 3.15, "yaw_deg": 90, "label": "Waiting Area"},
+    "general_medicine": {"x": 0.0, "y": 3.15, "yaw_deg": 90, "label": "General Medicine"},
+    "orthopedics": {"x": 6.65, "y": 3.15, "yaw_deg": 90, "label": "Orthopedics"},
+    "nurse_station": {"x": 0.0, "y": -3.15, "yaw_deg": -90, "label": "Nurse Station"},
+    "laboratory": {"x": 6.65, "y": -3.15, "yaw_deg": -90, "label": "Laboratory"}
+  },
+  "corridor_door_centres": [
+    {"x": -6.65, "y": 1}, {"x": 0.0, "y": 1}, {"x": 6.65, "y": 1},
+    {"x": -6.65, "y": -1}, {"x": 0.0, "y": -1}, {"x": 6.65, "y": -1}
+  ]
+}
